@@ -1,4 +1,4 @@
-module github.com/greenmaskio/greenmask
+module github.com/eminano/greenmask
 
 go 1.23.2
 
