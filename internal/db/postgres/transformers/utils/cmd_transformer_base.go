@@ -26,10 +26,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/greenmaskio/greenmask/internal/utils/reader"
+	"github.com/eminano/greenmask/internal/utils/reader"
 	"github.com/rs/zerolog/log"
 
-	"github.com/greenmaskio/greenmask/pkg/toolkit"
+	"github.com/eminano/greenmask/pkg/toolkit"
 )
 
 var ErrRowTransformationTimeout = errors.New("row transformation timeout")

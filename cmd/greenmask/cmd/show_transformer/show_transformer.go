@@ -26,10 +26,10 @@ import (
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/cobra"
 
-	"github.com/greenmaskio/greenmask/internal/db/postgres/transformers/custom"
-	"github.com/greenmaskio/greenmask/internal/db/postgres/transformers/utils"
-	"github.com/greenmaskio/greenmask/internal/domains"
-	"github.com/greenmaskio/greenmask/internal/utils/logger"
+	"github.com/eminano/greenmask/internal/db/postgres/transformers/custom"
+	"github.com/eminano/greenmask/internal/db/postgres/transformers/utils"
+	"github.com/eminano/greenmask/internal/domains"
+	"github.com/eminano/greenmask/internal/utils/logger"
 )
 
 var (

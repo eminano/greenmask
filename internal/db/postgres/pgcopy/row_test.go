@@ -20,7 +20,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/greenmaskio/greenmask/pkg/toolkit"
+	"github.com/eminano/greenmask/pkg/toolkit"
 )
 
 func TestDecode_positions_panic_error_regression(t *testing.T) {

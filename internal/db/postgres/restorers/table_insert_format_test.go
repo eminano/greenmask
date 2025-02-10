@@ -7,11 +7,11 @@ import (
 
 	"github.com/stretchr/testify/mock"
 
-	"github.com/greenmaskio/greenmask/internal/db/postgres/pgrestore"
-	"github.com/greenmaskio/greenmask/internal/db/postgres/toc"
-	"github.com/greenmaskio/greenmask/internal/domains"
-	"github.com/greenmaskio/greenmask/internal/utils/testutils"
-	"github.com/greenmaskio/greenmask/pkg/toolkit"
+	"github.com/eminano/greenmask/internal/db/postgres/pgrestore"
+	"github.com/eminano/greenmask/internal/db/postgres/toc"
+	"github.com/eminano/greenmask/internal/domains"
+	"github.com/eminano/greenmask/internal/utils/testutils"
+	"github.com/eminano/greenmask/pkg/toolkit"
 )
 
 func (s *restoresSuite) Test_TableRestorerInsertFormat_check_triggers_errors() {

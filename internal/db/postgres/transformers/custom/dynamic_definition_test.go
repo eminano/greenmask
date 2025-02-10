@@ -18,7 +18,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/greenmaskio/greenmask/pkg/toolkit"
+	"github.com/eminano/greenmask/pkg/toolkit"
 	"github.com/stretchr/testify/require"
 )
 

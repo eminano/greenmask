@@ -20,10 +20,10 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/greenmaskio/greenmask/internal/db/postgres/toc"
-	"github.com/greenmaskio/greenmask/internal/db/postgres/transformers/custom"
-	"github.com/greenmaskio/greenmask/internal/db/postgres/transformers/utils"
-	"github.com/greenmaskio/greenmask/pkg/toolkit"
+	"github.com/eminano/greenmask/internal/db/postgres/toc"
+	"github.com/eminano/greenmask/internal/db/postgres/transformers/custom"
+	"github.com/eminano/greenmask/internal/db/postgres/transformers/utils"
+	"github.com/eminano/greenmask/pkg/toolkit"
 )
 
 // Table - godoc

@@ -25,12 +25,12 @@ import (
 	"github.com/jackc/pgx/v5/pgtype"
 	"github.com/rs/zerolog/log"
 
-	"github.com/greenmaskio/greenmask/internal/db/postgres/entries"
-	"github.com/greenmaskio/greenmask/internal/db/postgres/subset"
-	transformersUtils "github.com/greenmaskio/greenmask/internal/db/postgres/transformers/utils"
-	"github.com/greenmaskio/greenmask/internal/domains"
-	"github.com/greenmaskio/greenmask/internal/utils"
-	"github.com/greenmaskio/greenmask/pkg/toolkit"
+	"github.com/eminano/greenmask/internal/db/postgres/entries"
+	"github.com/eminano/greenmask/internal/db/postgres/subset"
+	transformersUtils "github.com/eminano/greenmask/internal/db/postgres/transformers/utils"
+	"github.com/eminano/greenmask/internal/domains"
+	"github.com/eminano/greenmask/internal/utils"
+	"github.com/eminano/greenmask/pkg/toolkit"
 )
 
 const defaultTransformerCostMultiplier = 0.03

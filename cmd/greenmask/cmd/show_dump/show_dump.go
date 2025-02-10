@@ -22,10 +22,10 @@ import (
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/cobra"
 
-	cmdInternals "github.com/greenmaskio/greenmask/internal/db/postgres/cmd"
-	pgDomains "github.com/greenmaskio/greenmask/internal/domains"
-	"github.com/greenmaskio/greenmask/internal/storages/builder"
-	"github.com/greenmaskio/greenmask/internal/utils/logger"
+	cmdInternals "github.com/eminano/greenmask/internal/db/postgres/cmd"
+	pgDomains "github.com/eminano/greenmask/internal/domains"
+	"github.com/eminano/greenmask/internal/storages/builder"
+	"github.com/eminano/greenmask/internal/utils/logger"
 )
 
 const (

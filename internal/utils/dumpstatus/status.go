@@ -9,9 +9,9 @@ import (
 
 	"github.com/rs/zerolog/log"
 
-	"github.com/greenmaskio/greenmask/internal/db/postgres/cmd"
-	"github.com/greenmaskio/greenmask/internal/db/postgres/storage"
-	"github.com/greenmaskio/greenmask/internal/storages"
+	"github.com/eminano/greenmask/internal/db/postgres/cmd"
+	"github.com/eminano/greenmask/internal/db/postgres/storage"
+	"github.com/eminano/greenmask/internal/storages"
 )
 
 const (

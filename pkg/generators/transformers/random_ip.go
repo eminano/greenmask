@@ -19,7 +19,7 @@ import (
 	"math/big"
 	"net"
 
-	"github.com/greenmaskio/greenmask/pkg/generators"
+	"github.com/eminano/greenmask/pkg/generators"
 )
 
 type IpAddress struct {

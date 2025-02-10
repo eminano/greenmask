@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/greenmaskio/greenmask/internal/db/postgres/entries"
-	"github.com/greenmaskio/greenmask/internal/db/postgres/pgcopy"
+	"github.com/eminano/greenmask/internal/db/postgres/entries"
+	"github.com/eminano/greenmask/internal/db/postgres/pgcopy"
 )
 
 type PlainDumpPipeline struct {

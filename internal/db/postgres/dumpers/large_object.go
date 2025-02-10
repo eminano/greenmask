@@ -26,10 +26,10 @@ import (
 	"github.com/rs/zerolog/log"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/greenmaskio/greenmask/internal/utils/ioutils"
+	"github.com/eminano/greenmask/internal/utils/ioutils"
 
-	"github.com/greenmaskio/greenmask/internal/db/postgres/entries"
-	"github.com/greenmaskio/greenmask/internal/storages"
+	"github.com/eminano/greenmask/internal/db/postgres/entries"
+	"github.com/eminano/greenmask/internal/storages"
 )
 
 const loBufSize = 1024 * 1024

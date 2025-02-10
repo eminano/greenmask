@@ -25,16 +25,16 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/greenmaskio/greenmask/cmd/greenmask/cmd/delete"
-	"github.com/greenmaskio/greenmask/cmd/greenmask/cmd/dump"
-	"github.com/greenmaskio/greenmask/cmd/greenmask/cmd/list_dumps"
-	"github.com/greenmaskio/greenmask/cmd/greenmask/cmd/list_transformers"
-	"github.com/greenmaskio/greenmask/cmd/greenmask/cmd/restore"
-	"github.com/greenmaskio/greenmask/cmd/greenmask/cmd/show_dump"
-	"github.com/greenmaskio/greenmask/cmd/greenmask/cmd/show_transformer"
-	"github.com/greenmaskio/greenmask/cmd/greenmask/cmd/validate"
-	pgDomains "github.com/greenmaskio/greenmask/internal/domains"
-	configUtils "github.com/greenmaskio/greenmask/internal/utils/config"
+	"github.com/eminano/greenmask/cmd/greenmask/cmd/delete"
+	"github.com/eminano/greenmask/cmd/greenmask/cmd/dump"
+	"github.com/eminano/greenmask/cmd/greenmask/cmd/list_dumps"
+	"github.com/eminano/greenmask/cmd/greenmask/cmd/list_transformers"
+	"github.com/eminano/greenmask/cmd/greenmask/cmd/restore"
+	"github.com/eminano/greenmask/cmd/greenmask/cmd/show_dump"
+	"github.com/eminano/greenmask/cmd/greenmask/cmd/show_transformer"
+	"github.com/eminano/greenmask/cmd/greenmask/cmd/validate"
+	pgDomains "github.com/eminano/greenmask/internal/domains"
+	configUtils "github.com/eminano/greenmask/internal/utils/config"
 )
 
 var (

@@ -31,7 +31,7 @@ import (
 	"github.com/spf13/cobra"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/greenmaskio/greenmask/internal/utils/logger"
+	"github.com/eminano/greenmask/internal/utils/logger"
 )
 
 type NewRowDriverFunc func() RowDriver

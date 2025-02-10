@@ -13,12 +13,12 @@ import (
 	"github.com/testcontainers/testcontainers-go"
 	"github.com/testcontainers/testcontainers-go/wait"
 
-	"github.com/greenmaskio/greenmask/internal/db/postgres/pgdump"
-	"github.com/greenmaskio/greenmask/internal/db/postgres/subset"
-	"github.com/greenmaskio/greenmask/internal/db/postgres/transformers"
-	"github.com/greenmaskio/greenmask/internal/db/postgres/transformers/utils"
-	"github.com/greenmaskio/greenmask/internal/domains"
-	"github.com/greenmaskio/greenmask/pkg/toolkit"
+	"github.com/eminano/greenmask/internal/db/postgres/pgdump"
+	"github.com/eminano/greenmask/internal/db/postgres/subset"
+	"github.com/eminano/greenmask/internal/db/postgres/transformers"
+	"github.com/eminano/greenmask/internal/db/postgres/transformers/utils"
+	"github.com/eminano/greenmask/internal/domains"
+	"github.com/eminano/greenmask/pkg/toolkit"
 )
 
 const (

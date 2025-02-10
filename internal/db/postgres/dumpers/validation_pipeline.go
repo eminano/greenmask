@@ -7,7 +7,7 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/greenmaskio/greenmask/internal/db/postgres/entries"
+	"github.com/eminano/greenmask/internal/db/postgres/entries"
 )
 
 type ValidationPipeline struct {

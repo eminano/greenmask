@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"slices"
 
-	"github.com/greenmaskio/greenmask/pkg/generators"
+	"github.com/eminano/greenmask/pkg/generators"
 )
 
 const (

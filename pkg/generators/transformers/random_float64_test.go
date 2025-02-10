@@ -6,7 +6,7 @@ import (
 	"github.com/rs/zerolog/log"
 	"github.com/stretchr/testify/require"
 
-	"github.com/greenmaskio/greenmask/pkg/generators"
+	"github.com/eminano/greenmask/pkg/generators"
 )
 
 func TestNewFloat64Transformer(t *testing.T) {

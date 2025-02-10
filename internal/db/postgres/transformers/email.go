@@ -12,9 +12,9 @@ import (
 
 	"github.com/rs/zerolog/log"
 
-	"github.com/greenmaskio/greenmask/internal/db/postgres/transformers/utils"
-	"github.com/greenmaskio/greenmask/pkg/generators"
-	"github.com/greenmaskio/greenmask/pkg/toolkit"
+	"github.com/eminano/greenmask/internal/db/postgres/transformers/utils"
+	"github.com/eminano/greenmask/pkg/generators"
+	"github.com/eminano/greenmask/pkg/toolkit"
 )
 
 const emailTransformerGeneratorSize = 64

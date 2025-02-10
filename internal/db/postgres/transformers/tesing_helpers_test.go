@@ -19,8 +19,8 @@ import (
 
 	"github.com/jackc/pgx/v5/pgtype"
 
-	"github.com/greenmaskio/greenmask/internal/db/postgres/pgcopy"
-	"github.com/greenmaskio/greenmask/pkg/toolkit"
+	"github.com/eminano/greenmask/internal/db/postgres/pgcopy"
+	"github.com/eminano/greenmask/pkg/toolkit"
 )
 
 var columnList = []*toolkit.Column{

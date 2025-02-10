@@ -3,8 +3,8 @@ package validate_utils
 import (
 	"slices"
 
-	"github.com/greenmaskio/greenmask/internal/db/postgres/entries"
-	"github.com/greenmaskio/greenmask/pkg/toolkit"
+	"github.com/eminano/greenmask/internal/db/postgres/entries"
+	"github.com/eminano/greenmask/pkg/toolkit"
 )
 
 var endOfFileSeq = []byte(`\.`)

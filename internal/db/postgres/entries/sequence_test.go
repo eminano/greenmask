@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/greenmaskio/greenmask/internal/db/postgres/toc"
+	"github.com/eminano/greenmask/internal/db/postgres/toc"
 )
 
 func TestSequence_Entry(t *testing.T) {

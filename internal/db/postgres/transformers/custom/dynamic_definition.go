@@ -28,9 +28,9 @@ import (
 	"github.com/rs/zerolog/log"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/greenmaskio/greenmask/internal/utils/reader"
+	"github.com/eminano/greenmask/internal/utils/reader"
 
-	"github.com/greenmaskio/greenmask/pkg/toolkit"
+	"github.com/eminano/greenmask/pkg/toolkit"
 )
 
 func GetDynamicTransformerDefinition(ctx context.Context, executable string, args ...string) (*TransformerDefinition, error) {

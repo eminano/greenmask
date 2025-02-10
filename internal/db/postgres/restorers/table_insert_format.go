@@ -27,13 +27,13 @@ import (
 	"github.com/jackc/pgx/v5/pgconn"
 	"github.com/rs/zerolog/log"
 
-	"github.com/greenmaskio/greenmask/internal/db/postgres/pgcopy"
-	"github.com/greenmaskio/greenmask/internal/db/postgres/pgrestore"
-	"github.com/greenmaskio/greenmask/internal/db/postgres/toc"
-	"github.com/greenmaskio/greenmask/internal/domains"
-	"github.com/greenmaskio/greenmask/internal/storages"
-	"github.com/greenmaskio/greenmask/internal/utils/reader"
-	"github.com/greenmaskio/greenmask/pkg/toolkit"
+	"github.com/eminano/greenmask/internal/db/postgres/pgcopy"
+	"github.com/eminano/greenmask/internal/db/postgres/pgrestore"
+	"github.com/eminano/greenmask/internal/db/postgres/toc"
+	"github.com/eminano/greenmask/internal/domains"
+	"github.com/eminano/greenmask/internal/storages"
+	"github.com/eminano/greenmask/internal/utils/reader"
+	"github.com/eminano/greenmask/pkg/toolkit"
 )
 
 type TableRestorerInsertFormat struct {

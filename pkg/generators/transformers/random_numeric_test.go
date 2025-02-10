@@ -6,7 +6,7 @@ import (
 	"github.com/shopspring/decimal"
 	"github.com/stretchr/testify/require"
 
-	"github.com/greenmaskio/greenmask/pkg/generators"
+	"github.com/eminano/greenmask/pkg/generators"
 )
 
 func TestBigIntTransformer_Transform(t *testing.T) {

@@ -3,8 +3,8 @@ package subset
 import (
 	"fmt"
 
-	"github.com/greenmaskio/greenmask/internal/db/postgres/entries"
-	"github.com/greenmaskio/greenmask/internal/domains"
+	"github.com/eminano/greenmask/internal/db/postgres/entries"
+	"github.com/eminano/greenmask/internal/domains"
 )
 
 type Key struct {

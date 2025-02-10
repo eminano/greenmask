@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/greenmaskio/greenmask/internal/db/postgres/entries"
+	"github.com/eminano/greenmask/internal/db/postgres/entries"
 )
 
 func TestComponent_findCycles(t *testing.T) {

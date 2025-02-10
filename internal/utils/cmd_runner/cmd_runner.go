@@ -25,7 +25,7 @@ import (
 	"github.com/rs/zerolog"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/greenmaskio/greenmask/internal/utils/reader"
+	"github.com/eminano/greenmask/internal/utils/reader"
 )
 
 func Run(ctx context.Context, logger *zerolog.Logger, name string, args ...string) error {

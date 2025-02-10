@@ -7,7 +7,7 @@ import (
 
 	"github.com/shopspring/decimal"
 
-	"github.com/greenmaskio/greenmask/pkg/generators"
+	"github.com/eminano/greenmask/pkg/generators"
 )
 
 type RandomNumericLimiter struct {

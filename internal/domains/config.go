@@ -18,12 +18,12 @@ import (
 	"maps"
 	"sync"
 
-	"github.com/greenmaskio/greenmask/internal/db/postgres/pgdump"
-	"github.com/greenmaskio/greenmask/internal/db/postgres/pgrestore"
-	"github.com/greenmaskio/greenmask/internal/db/postgres/transformers/custom"
-	"github.com/greenmaskio/greenmask/internal/storages/directory"
-	"github.com/greenmaskio/greenmask/internal/storages/s3"
-	"github.com/greenmaskio/greenmask/pkg/toolkit"
+	"github.com/eminano/greenmask/internal/db/postgres/pgdump"
+	"github.com/eminano/greenmask/internal/db/postgres/pgrestore"
+	"github.com/eminano/greenmask/internal/db/postgres/transformers/custom"
+	"github.com/eminano/greenmask/internal/storages/directory"
+	"github.com/eminano/greenmask/internal/storages/s3"
+	"github.com/eminano/greenmask/pkg/toolkit"
 )
 
 var (

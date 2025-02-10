@@ -3,9 +3,9 @@ package context
 import (
 	"slices"
 
-	"github.com/greenmaskio/greenmask/internal/db/postgres/entries"
-	"github.com/greenmaskio/greenmask/internal/domains"
-	"github.com/greenmaskio/greenmask/pkg/toolkit"
+	"github.com/eminano/greenmask/internal/db/postgres/entries"
+	"github.com/eminano/greenmask/internal/domains"
+	"github.com/eminano/greenmask/pkg/toolkit"
 )
 
 func getReferencedKeys(r *domains.Reference) (res []string) {

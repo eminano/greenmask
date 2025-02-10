@@ -19,7 +19,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/greenmaskio/greenmask/internal/db/postgres/toc"
+	"github.com/eminano/greenmask/internal/db/postgres/toc"
 )
 
 type LargeObject struct {

@@ -21,8 +21,8 @@ import (
 
 	"text/template"
 
-	"github.com/greenmaskio/greenmask/internal/db/postgres/transformers/utils"
-	"github.com/greenmaskio/greenmask/pkg/toolkit"
+	"github.com/eminano/greenmask/internal/db/postgres/transformers/utils"
+	"github.com/eminano/greenmask/pkg/toolkit"
 )
 
 const TemplateTransformerName = "Template"

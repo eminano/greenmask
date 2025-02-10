@@ -5,7 +5,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/greenmaskio/greenmask/internal/db/postgres/entries"
+	"github.com/eminano/greenmask/internal/db/postgres/entries"
 )
 
 type cteQuery struct {

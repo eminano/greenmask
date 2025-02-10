@@ -3,8 +3,8 @@ package transformers
 import (
 	"testing"
 
-	"github.com/greenmaskio/greenmask/pkg/generators"
-	"github.com/greenmaskio/greenmask/pkg/toolkit"
+	"github.com/eminano/greenmask/pkg/generators"
+	"github.com/eminano/greenmask/pkg/toolkit"
 	"github.com/stretchr/testify/require"
 )
 

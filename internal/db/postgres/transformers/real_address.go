@@ -23,8 +23,8 @@ import (
 
 	"github.com/go-faker/faker/v4"
 
-	"github.com/greenmaskio/greenmask/internal/db/postgres/transformers/utils"
-	"github.com/greenmaskio/greenmask/pkg/toolkit"
+	"github.com/eminano/greenmask/internal/db/postgres/transformers/utils"
+	"github.com/eminano/greenmask/pkg/toolkit"
 )
 
 const RealAddressTransformerName = "RealAddress"

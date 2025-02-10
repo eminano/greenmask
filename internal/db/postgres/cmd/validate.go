@@ -16,18 +16,18 @@ import (
 
 	"github.com/rs/zerolog/log"
 
-	"github.com/greenmaskio/greenmask/internal/db/postgres/cmd/validate_utils"
-	runtimeContext "github.com/greenmaskio/greenmask/internal/db/postgres/context"
-	"github.com/greenmaskio/greenmask/internal/db/postgres/entries"
-	"github.com/greenmaskio/greenmask/internal/db/postgres/pgcopy"
-	storageDto "github.com/greenmaskio/greenmask/internal/db/postgres/storage"
-	"github.com/greenmaskio/greenmask/internal/db/postgres/toc"
-	"github.com/greenmaskio/greenmask/internal/db/postgres/transformers/custom"
-	"github.com/greenmaskio/greenmask/internal/db/postgres/transformers/utils"
-	"github.com/greenmaskio/greenmask/internal/domains"
-	"github.com/greenmaskio/greenmask/internal/storages"
-	"github.com/greenmaskio/greenmask/internal/utils/reader"
-	"github.com/greenmaskio/greenmask/pkg/toolkit"
+	"github.com/eminano/greenmask/internal/db/postgres/cmd/validate_utils"
+	runtimeContext "github.com/eminano/greenmask/internal/db/postgres/context"
+	"github.com/eminano/greenmask/internal/db/postgres/entries"
+	"github.com/eminano/greenmask/internal/db/postgres/pgcopy"
+	storageDto "github.com/eminano/greenmask/internal/db/postgres/storage"
+	"github.com/eminano/greenmask/internal/db/postgres/toc"
+	"github.com/eminano/greenmask/internal/db/postgres/transformers/custom"
+	"github.com/eminano/greenmask/internal/db/postgres/transformers/utils"
+	"github.com/eminano/greenmask/internal/domains"
+	"github.com/eminano/greenmask/internal/storages"
+	"github.com/eminano/greenmask/internal/utils/reader"
+	"github.com/eminano/greenmask/pkg/toolkit"
 )
 
 const (

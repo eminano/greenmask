@@ -17,7 +17,7 @@ package entries
 import (
 	"fmt"
 
-	"github.com/greenmaskio/greenmask/internal/db/postgres/toc"
+	"github.com/eminano/greenmask/internal/db/postgres/toc"
 )
 
 type Sequence struct {

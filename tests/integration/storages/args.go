@@ -20,7 +20,7 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"github.com/greenmaskio/greenmask/internal/utils/logger"
+	"github.com/eminano/greenmask/internal/utils/logger"
 )
 
 var (

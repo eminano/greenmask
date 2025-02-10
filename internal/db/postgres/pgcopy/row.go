@@ -18,7 +18,7 @@ import (
 	"errors"
 	"slices"
 
-	"github.com/greenmaskio/greenmask/pkg/toolkit"
+	"github.com/eminano/greenmask/pkg/toolkit"
 )
 
 var ErrIndexOutOfRage = errors.New("wrong column idx: index out of range")

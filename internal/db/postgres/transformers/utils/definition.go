@@ -18,7 +18,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/greenmaskio/greenmask/pkg/toolkit"
+	"github.com/eminano/greenmask/pkg/toolkit"
 )
 
 // NewTransformerFunc - make new transformer. This function receives Driver for making some steps for validation or

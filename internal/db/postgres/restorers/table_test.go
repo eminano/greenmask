@@ -7,9 +7,9 @@ import (
 
 	"github.com/stretchr/testify/mock"
 
-	"github.com/greenmaskio/greenmask/internal/db/postgres/pgrestore"
-	"github.com/greenmaskio/greenmask/internal/db/postgres/toc"
-	"github.com/greenmaskio/greenmask/internal/utils/testutils"
+	"github.com/eminano/greenmask/internal/db/postgres/pgrestore"
+	"github.com/eminano/greenmask/internal/db/postgres/toc"
+	"github.com/eminano/greenmask/internal/utils/testutils"
 )
 
 func (s *restoresSuite) Test_TableRestorer_check_triggers_errors() {

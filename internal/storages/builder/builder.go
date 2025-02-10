@@ -18,10 +18,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/greenmaskio/greenmask/internal/domains"
-	"github.com/greenmaskio/greenmask/internal/storages"
-	"github.com/greenmaskio/greenmask/internal/storages/directory"
-	"github.com/greenmaskio/greenmask/internal/storages/s3"
+	"github.com/eminano/greenmask/internal/domains"
+	"github.com/eminano/greenmask/internal/storages"
+	"github.com/eminano/greenmask/internal/storages/directory"
+	"github.com/eminano/greenmask/internal/storages/s3"
 )
 
 const (

@@ -25,11 +25,11 @@ import (
 	"github.com/jackc/pgx/v5/pgproto3"
 	"github.com/rs/zerolog/log"
 
-	"github.com/greenmaskio/greenmask/internal/db/postgres/pgrestore"
-	"github.com/greenmaskio/greenmask/internal/db/postgres/toc"
-	"github.com/greenmaskio/greenmask/internal/storages"
-	"github.com/greenmaskio/greenmask/internal/utils/pgerrors"
-	"github.com/greenmaskio/greenmask/internal/utils/reader"
+	"github.com/eminano/greenmask/internal/db/postgres/pgrestore"
+	"github.com/eminano/greenmask/internal/db/postgres/toc"
+	"github.com/eminano/greenmask/internal/storages"
+	"github.com/eminano/greenmask/internal/utils/pgerrors"
+	"github.com/eminano/greenmask/internal/utils/reader"
 )
 
 const defaultBufferSize = 1024 * 1024

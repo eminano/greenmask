@@ -18,9 +18,9 @@ import (
 	"context"
 	"fmt"
 
-	transformersUtils "github.com/greenmaskio/greenmask/internal/db/postgres/transformers/utils"
-	"github.com/greenmaskio/greenmask/internal/domains"
-	"github.com/greenmaskio/greenmask/pkg/toolkit"
+	transformersUtils "github.com/eminano/greenmask/internal/db/postgres/transformers/utils"
+	"github.com/eminano/greenmask/internal/domains"
+	"github.com/eminano/greenmask/pkg/toolkit"
 )
 
 func initTransformer(

@@ -21,7 +21,7 @@ import (
 
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/greenmaskio/greenmask/pkg/toolkit"
+	"github.com/eminano/greenmask/pkg/toolkit"
 )
 
 func ParamsToByteSliceHookFunc() mapstructure.DecodeHookFunc {

@@ -17,7 +17,7 @@ package utils
 import (
 	"context"
 
-	"github.com/greenmaskio/greenmask/pkg/toolkit"
+	"github.com/eminano/greenmask/pkg/toolkit"
 )
 
 type Transformer interface {

@@ -17,7 +17,7 @@ package pgcopy
 import (
 	"slices"
 
-	"github.com/greenmaskio/greenmask/pkg/toolkit"
+	"github.com/eminano/greenmask/pkg/toolkit"
 )
 
 // EncodeAttr - encode from UTF-8 slice to transfer representation (escaped byte[])

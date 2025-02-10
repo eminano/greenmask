@@ -24,12 +24,12 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/greenmaskio/greenmask/internal/storages"
+	"github.com/eminano/greenmask/internal/storages"
 
-	cmdInternals "github.com/greenmaskio/greenmask/internal/db/postgres/cmd"
-	pgDomains "github.com/greenmaskio/greenmask/internal/domains"
-	"github.com/greenmaskio/greenmask/internal/storages/builder"
-	"github.com/greenmaskio/greenmask/internal/utils/logger"
+	cmdInternals "github.com/eminano/greenmask/internal/db/postgres/cmd"
+	pgDomains "github.com/eminano/greenmask/internal/domains"
+	"github.com/eminano/greenmask/internal/storages/builder"
+	"github.com/eminano/greenmask/internal/utils/logger"
 )
 
 const (

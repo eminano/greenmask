@@ -6,8 +6,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/greenmaskio/greenmask/internal/db/postgres/entries"
-	"github.com/greenmaskio/greenmask/pkg/toolkit"
+	"github.com/eminano/greenmask/internal/db/postgres/entries"
+	"github.com/eminano/greenmask/pkg/toolkit"
 )
 
 type Component struct {

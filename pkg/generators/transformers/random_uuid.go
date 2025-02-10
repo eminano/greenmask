@@ -3,8 +3,8 @@ package transformers
 import (
 	"fmt"
 
+	"github.com/eminano/greenmask/pkg/generators"
 	"github.com/google/uuid"
-	"github.com/greenmaskio/greenmask/pkg/generators"
 )
 
 const uuidTransformerRequiredLength = 16
