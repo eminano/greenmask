@@ -236,6 +236,8 @@ func (d *Timestamp) Transform(l *TimestampLimiter, data []byte) (time.Time, erro
 		res = time.Unix(sec, nano)
 	}
 
+	res = res.UTC()
+
 	if d.truncater != nil {
 		res = d.truncater.Truncate(res)
 	}
